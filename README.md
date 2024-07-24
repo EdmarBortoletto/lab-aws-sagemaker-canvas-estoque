@@ -18,16 +18,17 @@
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+-   Após o treinamento, Foram destacadas as seguintes metricas
+     ![image](https://github.com/user-attachments/assets/2ac6df29-7b08-4c3d-a974-f0f1a4f1dfe4)
+-   MAPE de 0.149 e WAPE de 0.103 sugerem que o modelo está fazendo previsões razoavelmente precisas, com erros médios absolutos de cerca de 14.9% e 10.3%, respectivamente.
+-   RMSE de 5.977 sugere que há alguns erros maiores, pois RMSE é mais sensível a outliers.
+-   MASE de 0.310 indica que o modelo é significativamente mais preciso que o modelo de referência.
+    No geral, as métricas indicam que o modelo tem um desempenho bom, com erros relativamente baixos e boa precisão
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+-  Apos a conclusao da analise e das metricas, prossegui para predição, selecionei um item aleatorio para analisar como o modelo se comporta na predicao e tirei algumas analises deste.
+   ![image](https://github.com/user-attachments/assets/ffb33b9d-1f9c-4084-a41f-a841ccf3751c)
 
-## 🤔 Dúvidas?
+   
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
