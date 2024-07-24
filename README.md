@@ -30,5 +30,15 @@
 -  Apos a conclusao da analise e das metricas, prossegui para predição, selecionei um item aleatorio para analisar como o modelo se comporta na predicao e tirei algumas analises deste.
    ![image](https://github.com/user-attachments/assets/ffb33b9d-1f9c-4084-a41f-a841ccf3751c)
 
+
+P10 indica uma previsão conservadora, sugerindo um valor abaixo do qual a demanda real é improvável de cair (apenas 10% de chance de ser menor).
+P50 (mediana) fornece um ponto médio da previsão, sugerindo que a demanda real tem 50% de chance de ser menor ou maior do que esse valor.
+P90 indica uma previsão otimista, sugerindo um valor acima do qual a demanda real é improvável de subir (apenas 10% de chance de ser maior).
+Uso Prático das Previsões Percentis
+Esses diferentes percentuais ajudam na tomada de decisão sob incerteza. Por exemplo:
+
+Planejamento de Estoque: Você pode usar o P90 para garantir que tenha estoque suficiente para cobrir 90% das possíveis demandas, reduzindo o risco de falta de estoque.
+Gestão de Custos: Usar o P10 pode ser útil para otimizar custos e evitar excessos de estoque, garantindo que não haja desperdício de recursos.
+
    
 
