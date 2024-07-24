@@ -4,12 +4,17 @@
 
 -   Selecionado o Dataset com preços, feito o download e apos isso realizado o upload do dataset no sagemaker canvas,
     para posteriormente realizar a construção do modelo.
+    ![image](https://github.com/user-attachments/assets/d108deb2-6b50-44ca-be52-306c01f9db79)
+
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+-   No SageMaker Canvas, utilzando o dataset importado, comecei a construir o modelo.
+-   Ele ja me a opção de  predição no caso é time series ou series temporais, isso pelo atributo de data existente no dataset.
+-   Algumas configurações para melhorar o desempenho do modelo, excluir a coluna de flag promocional, no caso pode atrapalhar a prediçao, eu ja havia testado outros modelos, por isso decidi neste tirar para avaliar, alem de lidar com valores que estavam faltando
+-   Feito isso, começar a treinar o modelo com a opção de Quick Build
+    ![image](https://github.com/user-attachments/assets/cd784f05-146a-4f96-8946-e6ab0abed720)
+
 
 ### 3. Analisar
 
